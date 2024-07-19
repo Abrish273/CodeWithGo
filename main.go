@@ -28,7 +28,7 @@ func main() {
 
 	for remainingTickets > 0 && len(bookings) < 50 { //iterate until this condition is true
 		
-		fmt.Println("Enter your first name: ")
+		// fmt.Println("Enter your first name: ")
 		 isValidName, isValidEmail, isValidTicket := validateUserInput(firstName, lastName, email, Tickets, remainingTickets)
 
 		// isValidCity := city == "Nairobi" && city == "Mombasa" 
