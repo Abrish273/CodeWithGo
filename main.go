@@ -1,9 +1,11 @@
 package main
+
 // 02:19:00
 import (
 	"fmt"
 	"strings"
 )
+
 //  package level variables
 
 const conferenceTickets int = 50
@@ -28,6 +30,8 @@ func main() {
 
 	for remainingTickets > 0 && len(bookings) < 50 { //iterate until this condition is true
 		
+		// from test branch 
+
 		// fmt.Println("Enter your first name: ")
 		 isValidName, isValidEmail, isValidTicket := validateUserInput(firstName, lastName, email, Tickets, remainingTickets)
 
